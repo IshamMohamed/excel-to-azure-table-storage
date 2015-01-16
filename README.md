@@ -9,3 +9,6 @@ This is a console application to convert Microsoft Excel data to AzureTableStora
 * eg : `ExcelToAzureTable.exe sample.xlsx 1`
 
 After successfull exection, two new .cs files popup in the directory. To insert data into Table Storage, we need to classes, one is the helper class (that ends with Entity.cs here) and the next is execution class ([for further info](http://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-tables/#add-entity)). You can copy the code in DataInsert.cs put it into the data insertion method.
+
+## Tutorial
+A detailed tutorial covering the need of this tool is available [here](http://social.technet.microsoft.com/wiki/contents/articles/29196.technet-guru-contributions-january-2015.aspx)
