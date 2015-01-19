@@ -12,3 +12,7 @@ After successfull exection, two new .cs files popup in the directory. To insert 
 
 ## Tutorial
 A detailed tutorial covering the need of this tool is available [here](http://social.technet.microsoft.com/wiki/contents/articles/29548.migrate-microsoft-excel-worksheets-to-azure-table-storage.aspx)
+
+## Limitations
+* The Excel sheet should not have other types of data other than texts.
+* Rowkey for the Azure Table is retrived from the first data column of Excel sheet and PartitionKey is retrieved from the second data columns, to you have to manually re-arange them.
